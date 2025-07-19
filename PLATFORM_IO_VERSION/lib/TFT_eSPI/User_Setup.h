@@ -225,7 +225,7 @@
 //#define TFT_CS   5  // Chip select control pin
 //#define TFT_DC   27  // Data Command control pin
 //#define TFT_RST  33  // Reset pin (could connect to Arduino RESET pin)
-#define TFT_BL   21  // LED back-light
+#define TFT_BL   26  // LED back-light
 
 #define TOUCH_CS 12     // Chip select pin (T_CS) of touch screen
 
@@ -366,7 +366,7 @@
 // #define SPI_FREQUENCY  80000000
 
 // Optional reduced SPI frequency for reading TFT
-#define SPI_READ_FREQUENCY  20000000
+// #define SPI_READ_FREQUENCY  20000000
 
 // The XPT2046 requires a lower SPI clock rate of 2.5MHz so we define that here:
 #define SPI_TOUCH_FREQUENCY  2500000
